@@ -1,24 +1,27 @@
 ## How to Run
 
-1. Install dependencies:
+1. Clone the repository and navigate to the project directory:  
+   ```sh
+   git clone https://github.com/akildevs1000/wa-proxy-client.git
+   cd wa-proxy-client
+   ```
+2. Install dependencies:  
    ```sh
    npm i
    ```
-2. Start the client with your unique string:
+3. Start the client with your unique string:  
    ```sh
    node client [your_unique_string]
    ```
-3. Scan the QR code.
-4. Use via API:
+4. Scan the QR code.  
+5. Use via API:  
 
-   **Endpoint:**
-
+   **Endpoint:**  
    ```
    https://wa.mytime2cloud.com/send-message
    ```
 
-   **POST Request:**
-
+   **POST Request:**  
    ```json
    {
      "clientId": "AE00012",
@@ -27,8 +30,7 @@
    }
    ```
 
-   **Response:**
-
+   **Response:**  
    ```json
    {
      "success": true,
